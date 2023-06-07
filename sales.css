@@ -24,9 +24,24 @@ body {
     background-color: var(--primative1);
     padding: 20px;
 }
-h1 {
+
+.title {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
+
+.title p {
+    font-size: 30px;
+}
+
+.title a {
+    font-size: 30px;
+    color: var(--bg1);
+    text-decoration: none;
+}
+
+
 table {
     width: 100%;
 }
@@ -34,4 +49,14 @@ table {
 th, td {
     border: var(--white) solid 1px;
     padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+td:first-of-type {
+    text-align: left;
+}
+
+td:last-of-type {
+    background-color: var(--primative2);
 }
